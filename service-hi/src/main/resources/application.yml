@@ -1,5 +1,7 @@
 server:
   port: 9091
+  servlet:
+        context-path: /example
 
 spring:
   application:
@@ -9,4 +11,5 @@ eureka:
   client:
     serviceUrl:
        defalutZone: localhost:8761/eureka/
+            
  

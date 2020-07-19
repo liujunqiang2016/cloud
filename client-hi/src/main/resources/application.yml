@@ -1,0 +1,11 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: client-hi
+
+eureka:
+  client:
+    serviceUrl:
+       defalutZone: localhost:8761/eureka/
