@@ -18,7 +18,7 @@ public class ClientApplication {
 	 */
 	public static void main(String[] args){
 		System.out.println("aaaccccccaaaaaaaaaaaaaaaaaa");
-		System.out.println("bbbbbbbbbbbbbbbbbbbbbb");
+		System.out.println("bbbbbbbbbbbbbbbbbbbbbbddddddd");
 		SpringApplication.run(ClientApplication.class, args);
 	}
 }
