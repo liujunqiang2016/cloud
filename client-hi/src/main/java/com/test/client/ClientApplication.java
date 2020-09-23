@@ -17,6 +17,8 @@ public class ClientApplication {
 	 * @param args
 	 */
 	public static void main(String[] args){
+		System.out.println("aaaaaaaaaaaaaaaaaaaaa");
+		System.out.println("bbbbbbbbbbbbbbbbbbbbbb");
 		SpringApplication.run(ClientApplication.class, args);
 	}
 }
