@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(value = "service-hi")
 public interface ServiceHi {
 
-	@RequestMapping(value = "/example/test1111111111111",method = RequestMethod.GET)
+	@RequestMapping(value = "/example/test",method = RequestMethod.GET)
     String sayHiFromClientOne(@RequestParam(value = "name") String name);
 }
